@@ -37,3 +37,18 @@ To run Shoar locally, follow these steps:
    spring.datasource.url=jdbc:sqlserver://your-sql-server-host:1433/your-database-name
    spring.datasource.username=your-username
    spring.datasource.password=your-password
+
+   
+## API Endpoints
+
+### 1. Get All Categories
+
+- **Endpoint:** `http://localhost:8081/shoar/categories/get-all`
+- **Method:** `GET`
+- **Description:** Retrieve a list of all categories.
+
+### 2. Get All Consultants by Category
+
+- **Endpoint:** `http://localhost:8081/shoar/consultants/get-all-by-category/{category}`
+- **Method:** `GET`
+- **Description:** Retrieve all consultants based on a specific category.
