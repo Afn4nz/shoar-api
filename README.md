@@ -46,9 +46,14 @@ To run Shoar locally, follow these steps:
 - **Endpoint:** `http://localhost:8081/shoar/categories/get-all`
 - **Method:** `GET`
 - **Description:** Retrieve a list of all categories.
+- **Headers:**
+  - `X-API-Key`: Your_API_Key
 
 ### 2. Get All Consultants by Category
 
 - **Endpoint:** `http://localhost:8081/shoar/consultants/get-all-by-category/{category}`
 - **Method:** `GET`
 - **Description:** Retrieve all consultants based on a specific category.
+- **Headers:**
+  - `X-API-Key`: Your_API_Key
+
